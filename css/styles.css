@@ -1,0 +1,90 @@
+:root {
+    --main-color: #212121;
+    
+}
+
+.header {
+    background: #FFFFFF;
+}
+
+.header-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+.body {
+    font-family: Roboto, sans-serif;
+    color: #212121;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-item {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: currentColor;
+}
+
+.nav-item:active,
+.nav-item:hover,
+.nav-item:focus {
+    color: #2196F3;
+}
+
+.header-email:active,
+.header-email:hover,
+.header-email:focus {
+    color: #2196F3;
+}
+
+.header-email {
+    color: currentColor;
+}
+
+.header-phone {
+    color: currentColor;
+}
+
+.header-phone:active,
+.header-phone:hover,
+.header-phone:focus {
+    color: #2196F3;
+}
+
+.hero-section {
+    background-color: #2F303A;
+}
+
+.hero-slogan {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    cursor: pointer;
+}

@@ -92,6 +92,10 @@ header-section
     color: var(--accent-color);
 }
 
+.nav-list .nav-link.current {
+    color: var(--accent-color);
+}
+
 .header-contacts .header-email:hover,
 .header-contacts .header-email:focus {
     color: var(--accent-color);

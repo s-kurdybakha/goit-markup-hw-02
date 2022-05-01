@@ -326,6 +326,10 @@ footer
     text-decoration: none;
 }
 
+.footer-list {
+    list-style-type: none;
+}
+
 .footer-list .footer-address-map:hover,
 .footer-list .ffooter-address-map:focus {
     color: var(--accent-color);

@@ -6,7 +6,9 @@
     --main-color: #212121;
     --secondary-color: #757575;
     --accent-color: #2196F3;
+    --secondary-accent-color: #188CE8;
     --white-text-color: #FFFFFF;
+    --black-text-color: #000000;
 
     /* background-colors */
     --main-bg-color: #FFFFFF;
@@ -57,7 +59,7 @@ header-section
     line-height: 31px;
     /* identical to box height */
     letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--black-text-color);
 }
 
 .nav-list,
@@ -134,6 +136,10 @@ hero-section
     color: currentColor;
     color: var(--white-text-color);
     background-color: var(--accent-color);
+}
+
+.btn:hover {
+   background-color: var(--secondary-accent-color)
 }
 
 /* 

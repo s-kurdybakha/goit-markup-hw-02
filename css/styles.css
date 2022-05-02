@@ -41,6 +41,14 @@ header-section
     background: var(--main-bg-color);
 }
 
+.item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-color)
+}
+
 .header-contacts {
     font-weight: 500;
     font-size: 14px;
@@ -160,7 +168,8 @@ features-section
 ==========================
 */
 
-.visually-hidden {position: absolute;
+.visually-hidden {
+    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -255,6 +264,7 @@ portfolio-section
     color: var(--main-color);
     background-color: var(--secondary-bg-color);
     border-radius: 4px;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -327,12 +337,12 @@ footer
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--white-text-color);
-    opacity: 60%;
+    color: rgba(255, 255, 255, 0.6);
+    
 }
 
 .footer-list .footer-address-map:hover,
-.footer-list .ffooter-address-map:focus {
+.footer-list .footer-address-map:focus {
     color: var(--accent-color);
 }
 
